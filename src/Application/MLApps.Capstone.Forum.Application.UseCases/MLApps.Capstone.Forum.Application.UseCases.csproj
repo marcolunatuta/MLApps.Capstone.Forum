@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\MLApps.Capstone.Forum.Domain\MLApps.Capstone.Forum.Domain.csproj" />
+    <ProjectReference Include="..\..\Transversal\MLApps.Capstone.Forum.Transversal.Common\MLApps.Capstone.Forum.Transversal.Common.csproj" />
+    <ProjectReference Include="..\..\Transversal\MLApps.Capstone.Forum.Transversal.Logging\MLApps.Capstone.Forum.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Forum.Application.Dto\MLApps.Capstone.Forum.Application.Dto.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Forum.Application.Interface\MLApps.Capstone.Forum.Application.Interface.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Forum.Application.Validation\MLApps.Capstone.Forum.Application.Validation.csproj" />
+  </ItemGroup>
+
+
+</Project>
