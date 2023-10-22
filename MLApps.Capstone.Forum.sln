@@ -17,25 +17,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3DC6AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{751E5B78-2DDB-4CD6-A4CD-56F3CA462661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Transversal.Common", "src\Transversal\MLApps.Capstone.Forum.Transversal.Common\MLApps.Capstone.Forum.Transversal.Common.csproj", "{1332ED84-A6CD-4016-9B91-0BFD32381E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Transversal.Common", "src\Transversal\MLApps.Capstone.Forum.Transversal.Common\MLApps.Capstone.Forum.Transversal.Common.csproj", "{1332ED84-A6CD-4016-9B91-0BFD32381E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Transversal.Logging", "src\Transversal\MLApps.Capstone.Forum.Transversal.Logging\MLApps.Capstone.Forum.Transversal.Logging.csproj", "{2B319457-CFF0-4D40-92A8-38231BE5B44F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Transversal.Logging", "src\Transversal\MLApps.Capstone.Forum.Transversal.Logging\MLApps.Capstone.Forum.Transversal.Logging.csproj", "{2B319457-CFF0-4D40-92A8-38231BE5B44F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Transversal.Mapping", "src\Transversal\MLApps.Capstone.Forum.Transversal.Mapping\MLApps.Capstone.Forum.Transversal.Mapping.csproj", "{FB174DA3-DFF5-472D-B0BA-52DA3EF3265D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Transversal.Mapping", "src\Transversal\MLApps.Capstone.Forum.Transversal.Mapping\MLApps.Capstone.Forum.Transversal.Mapping.csproj", "{FB174DA3-DFF5-472D-B0BA-52DA3EF3265D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Domain", "src\Domain\MLApps.Capstone.Forum.Domain\MLApps.Capstone.Forum.Domain.csproj", "{5E151D86-D77C-42BA-A6D6-5970A8654F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Domain", "src\Domain\MLApps.Capstone.Forum.Domain\MLApps.Capstone.Forum.Domain.csproj", "{5E151D86-D77C-42BA-A6D6-5970A8654F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Application.Interface", "src\Application\MLApps.Capstone.Forum.Application.Interface\MLApps.Capstone.Forum.Application.Interface.csproj", "{EC63EE19-6C8A-4A6A-8FDA-6A4E97630B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Application.Interface", "src\Application\MLApps.Capstone.Forum.Application.Interface\MLApps.Capstone.Forum.Application.Interface.csproj", "{EC63EE19-6C8A-4A6A-8FDA-6A4E97630B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Application.Dto", "src\Application\MLApps.Capstone.Forum.Application.Dto\MLApps.Capstone.Forum.Application.Dto.csproj", "{66A4A1B6-D1F4-41B3-A7EA-C952C26F4BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Application.Dto", "src\Application\MLApps.Capstone.Forum.Application.Dto\MLApps.Capstone.Forum.Application.Dto.csproj", "{66A4A1B6-D1F4-41B3-A7EA-C952C26F4BF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Persistance", "src\Infrastructure\MLApps.Capstone.Forum.Persistance\MLApps.Capstone.Forum.Persistance.csproj", "{E2F4CD7B-D117-4284-938A-09D2A18F1C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.Application.Validation", "src\Application\MLApps.Capstone.Forum.Application.Validation\MLApps.Capstone.Forum.Application.Validation.csproj", "{50088F99-506E-4A25-89BC-0CAC8AD886A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Application.Validation", "src\Application\MLApps.Capstone.Forum.Application.Validation\MLApps.Capstone.Forum.Application.Validation.csproj", "{50088F99-506E-4A25-89BC-0CAC8AD886A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Forum.WebClient", "src\Services\MLApps.Capstone.Forum.WebClient\MLApps.Capstone.Forum.WebClient.csproj", "{9EE9CCC5-601E-4363-8340-D56276D4A1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.WebClient", "src\Services\MLApps.Capstone.Forum.WebClient\MLApps.Capstone.Forum.WebClient.csproj", "{9EE9CCC5-601E-4363-8340-D56276D4A1AB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLApps.Capstone.Forum.Application.UseCases", "src\Application\MLApps.Capstone.Forum.Application.UseCases\MLApps.Capstone.Forum.Application.UseCases.csproj", "{4E64B112-921D-40A2-8F68-29CDBF5A3CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00DF6417-3319-4BCB-9A3E-F0544469A8B2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
