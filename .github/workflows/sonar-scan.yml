@@ -1,0 +1,16 @@
+on:
+  push:
+    branches: 
+      -main
+  pull_request:
+    branches: [ opened, synchronize, reopened ]
+name: Main Workflow 
+jobs:
+  sonarqube:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SonarQube Scan
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_HOST: ${{ secrets.SONAR_HOST }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
