@@ -1,4 +1,4 @@
-name: Main Workflow
+name: Build
 on:
   push:
     branches: 
@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: SonarQube Scan
-        uses: sonarsource/sonarqube-scan-action@main
+        uses: sonarsource/sonarqube-scan-action@master
         env:
           SONAR_HOST: ${{ secrets.SONAR_HOST }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
